@@ -1,0 +1,87 @@
+body{
+    text-align: center;
+    background-color: #02070D;
+    color: white;
+}
+.client-name, .testimony-name, #contact {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 1rem;
+    background-color:#070F18;
+    color: #ffffff;
+    font-family: 'Varela Round', sans-serif;
+    padding: 20px;
+    align-content: space-around;
+    
+}
+img{
+    border-radius: 50%;
+}
+.heading {
+    /* font-family: 'Fjalla One', sans-serif; */
+    font-family: 'Varela Round', sans-serif;
+    color: #ffffff;
+    font-size: 2rem;
+}
+.client-name img{
+    width: 50%;
+    height: 50%;
+}
+
+.testimony-name img{
+    width: 180px;
+    height: 180px;
+}
+
+.footer{
+    background-color:rgb(155, 123, 18);
+    color: black;
+    font-family: 'Varela Round', sans-serif;
+    align-content: space-around;
+    padding: 20px;
+    font-size: 1.5rem;
+}
+#footerUs{
+    display: flex;
+    flex-direction: row;
+    align-content: space-around;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin: 1rem;
+}
+#footerUs i{
+    font-size: 18px;
+    font-weight: bold;
+    color: rgb(8, 42, 73);
+}
+.testimony-name i{
+    color: rgb(26, 108, 185);
+}
+.footer-title{
+    color: rgb(8, 42, 73);  
+    font-weight: bold;
+    font-family: 'Varela Round', sans-serif;
+    font-size: 3rem;
+    margin: -10px;
+    padding-top: 20px;
+}
+.social{
+    display: flex;
+    flex-direction: row;
+    align-content: space-around;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin: 1rem;
+}
+
+#leftbox { 
+    float:left;  
+    
+    width:25%; 
+    height:100px; 
+} 
+#sticky {
+    position: sticky;
+}
